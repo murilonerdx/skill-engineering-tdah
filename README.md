@@ -1,5 +1,11 @@
 # skill-engineering-tdah
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-skills-8A63D2)
+![Skills](https://img.shields.io/badge/skills-30-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Neurodivergent friendly](https://img.shields.io/badge/neurodivergent-friendly-ff69b4)
+
 **Kit de skills do [Claude Code](https://docs.anthropic.com/claude-code) para engenheiros de software neurodivergentes.**
 
 Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenharia de software — especialmente backend/Java/Spring e fintech, mas útil pra qualquer stack. Todas as skills entregam saída **estruturada, visual, escaneável e direta**: listas e títulos, nada de parágrafo longo.
@@ -97,6 +103,8 @@ O estilo (estruturado, visual, direto) e a lógica das skills valem pra qualquer
 
 PRs bem-vindos — novas skills, melhorias de estrutura, traduções (EN), correções.
 Diretriz: toda skill deve ser **estruturada, escaneável e direta** (o oposto de parede de texto) e explicar o "por que importa".
+
+Veja o [guia de contribuição](CONTRIBUTING.md) pra como adicionar uma skill e os padrões do projeto.
 
 ---
 
