@@ -1,0 +1,13 @@
+{
+  "name": "skill-engineering-tdah",
+  "owner": {
+    "name": "skill-engineering-tdah contributors"
+  },
+  "plugins": [
+    {
+      "name": "skill-engineering-tdah",
+      "source": "./",
+      "description": "Kit de skills do Claude Code para engenheiros de software neurodivergentes (TDAH/TEA/dislexia)."
+    }
+  ]
+}

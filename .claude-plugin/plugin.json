@@ -1,0 +1,24 @@
+{
+  "name": "skill-engineering-tdah",
+  "version": "1.0.0",
+  "description": "Kit de skills do Claude Code para engenheiros de software (backend/Java/Spring, fintech) neurodivergentes — foco em TDAH, TEA e dislexia. Rotina, foco, comunicação, decisão, revisão, ADR, review de PR, radar de tecnologia e um roteador de skills. Saídas estruturadas, visuais e diretas.",
+  "author": {
+    "name": "skill-engineering-tdah contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tdah",
+    "adhd",
+    "tea",
+    "autism",
+    "dyslexia",
+    "neurodivergent",
+    "accessibility",
+    "produtividade",
+    "java",
+    "spring",
+    "fintech",
+    "arquitetura",
+    "staff-engineer"
+  ]
+}
