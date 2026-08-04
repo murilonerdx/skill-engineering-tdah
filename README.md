@@ -49,14 +49,14 @@ Guia de uso completo com exemplos: [GUIA.md](GUIA.md).
 ### Via marketplace (recomendado)
 Numa sessão interativa do Claude Code, **no chat** (não no terminal):
 ```
-/plugin marketplace add <seu-usuario>/skill-engineering-tdah
+/plugin marketplace add murilonerdx/skill-engineering-tdah
 /plugin install skill-engineering-tdah@skill-engineering-tdah
 ```
 Reinicie o Claude Code.
 
 ### Local (clonando)
 ```bash
-git clone https://github.com/<seu-usuario>/skill-engineering-tdah.git
+git clone https://github.com/murilonerdx/skill-engineering-tdah.git
 ```
 No chat do Claude Code:
 ```

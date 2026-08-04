@@ -1,6 +1,6 @@
 # 📘 Guia do skill-engineering-tdah
 
-Como usar as 26 skills. Feito pra ser **escaneável** — pula direto pra seção que precisa.
+Como usar as 30 skills. Feito pra ser **escaneável** — pula direto pra seção que precisa.
 
 > **Esqueceu qual usar?** Roda `/qualskill <situação>` e ela te aponta a certa.
 
@@ -286,7 +286,7 @@ skill-engineering-tdah/
 ├── .claude-plugin/
 │   ├── plugin.json
 │   └── marketplace.json
-├── skills/            ← 26 skills (fonte)
+├── skills/            ← 30 skills (fonte)
 ├── README.md          ← índice curto
 └── GUIA.md            ← este guia
 ```
