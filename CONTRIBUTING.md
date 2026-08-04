@@ -1,59 +1,61 @@
-# Contribuindo
+# Contributing
 
-Obrigado por querer ajudar! Este kit existe pra tornar o dia de engenharia mais leve pra quem é neurodivergente (TDAH, TEA, dislexia). Contribuições são bem-vindas — skills novas, melhorias, traduções, correções.
+🌐 🇬🇧 **English** · 🇧🇷 [Português](CONTRIBUTING.pt-BR.md)
 
-## Princípio central
+Thanks for wanting to help! This kit exists to make the engineering day lighter for neurodivergent people (ADHD, autism, dyslexia). Contributions are welcome — new skills, improvements, translations, fixes.
 
-Toda skill deve ser **estruturada, escaneável e direta** — o oposto de parede de texto. Se a saída da skill cansaria alguém com dislexia ou faria alguém com TDAH perder o foco, ela precisa melhorar.
+## Core principle
 
-Regras de estilo pra qualquer skill:
-- Títulos + listas, **nunca** parágrafos longos.
-- Sempre explicar o **"por que importa"**, não só o "o quê".
-- Terminar com **uma** ação concreta quando fizer sentido.
-- Reduzir carga cognitiva e paralisia de decisão — menos opções, mais clareza.
+Every skill must be **structured, scannable and direct** — the opposite of a wall of text. If the skill's output would tire someone with dyslexia or make someone with ADHD lose focus, it needs work.
 
-## Como adicionar uma skill
+Style rules for any skill:
+- Headings + lists, **never** long paragraphs.
+- Always explain the **"why it matters"**, not just the "what".
+- End with **one** concrete action when it makes sense.
+- Reduce cognitive load and decision paralysis — fewer options, more clarity.
 
-1. Crie a pasta `skills/<nome>/` com um arquivo `SKILL.md`.
-2. O `SKILL.md` começa com frontmatter YAML:
+## How to add a skill
+
+1. Create the folder `skills/<name>/` with a `SKILL.md` file.
+2. `SKILL.md` starts with YAML frontmatter:
    ```yaml
    ---
-   name: nome-da-skill
-   description: Uma frase clara e específica (até ~200 caracteres). É o que dispara a skill e vira o comando /nome-da-skill.
+   name: skill-name
+   description: A clear, specific sentence (up to ~200 chars). This is what triggers the skill and becomes the /skill-name command.
    ---
    ```
-3. No corpo, escreva as instruções que o Claude deve seguir. Inclua:
-   - **Quem sou eu** (persona/contexto — mantenha genérico e editável)
-   - **Como agir** (passos)
-   - **Formato da saída** (estruturado)
-   - **Regras duras** (o que nunca fazer)
-4. Teste localmente copiando pra `~/.claude/skills/` e reiniciando o Claude Code.
-5. Atualize a contagem e a lista no `README.md` e no `GUIA.md`.
+3. In the body, write the instructions Claude should follow. Include:
+   - **About me** (persona/context — keep it generic and editable)
+   - **How to act** (steps)
+   - **Output format** (structured)
+   - **Hard rules** (what never to do)
+4. Test locally by copying it into `~/.claude/skills/` and restarting Claude Code.
+5. Update the count and the list in `README.md` / `README.pt-BR.md` and the guide.
 
-## Padrões
+## Standards
 
-- **Sem dados pessoais.** Nada de nomes reais, empresas, emails, caminhos absolutos de máquina, tokens ou senhas. Use persona genérica e caminhos como `~/.claude/...`.
-- **Persona editável.** A seção "Quem sou eu" tem um padrão (engenheiro backend), mas deixe claro que o usuário adapta pro contexto dele.
-- **Idioma.** O kit é PT-BR hoje. Traduções (EN) são muito bem-vindas — mantenha a estrutura.
-- **Uma skill = uma capacidade.** Não empacote cinco coisas numa skill só.
+- **No personal data.** No real names, companies, emails, absolute machine paths, tokens or passwords. Use a generic persona and paths like `~/.claude/...`.
+- **Editable persona.** The "About me" section has a default (backend engineer), but make it clear the user adapts it to their own context.
+- **Language.** The kit is PT-BR today, with English docs. Skill translations (EN) are very welcome — keep the structure.
+- **One skill = one capability.** Don't pack five things into a single skill.
 
-## Fluxo de PR
+## PR flow
 
-1. Fork + branch (`feat/nome-da-skill` ou `fix/...`).
-2. Faça a mudança seguindo os padrões acima.
-3. Rode uma verificação rápida de dados pessoais antes de commitar:
+1. Fork + branch (`feat/skill-name` or `fix/...`).
+2. Make the change following the standards above.
+3. Run a quick personal-data check before committing:
    ```bash
-   grep -rni "seu-nome\|sua-empresa\|@gmail\|C:/Users" .
+   grep -rni "your-name\|your-company\|@gmail\|C:/Users" .
    ```
-4. Abra o PR descrevendo **qual dor de neurodivergência** a mudança ataca.
+4. Open the PR describing **which neurodivergence pain point** the change addresses.
 
-## Ideias de contribuição
+## Contribution ideas
 
-- Tradução EN das skills.
-- Skills novas pra outras dores (ex: transição de hiperfoco, gestão de energia).
-- Variantes de persona pra outras stacks (front, dados, mobile, SRE).
-- Exemplos e templates de saída.
+- EN translation of the skills.
+- New skills for other pain points (e.g. hyperfocus transitions, energy management).
+- Persona variants for other stacks (frontend, data, mobile, SRE).
+- Output examples and templates.
 
-## Código de conduta
+## Code of conduct
 
-Seja gentil. Este projeto lida com neurodivergência — respeito e acessibilidade vêm primeiro, em código e em conversa.
+Be kind. This project deals with neurodivergence — respect and accessibility come first, in code and in conversation.

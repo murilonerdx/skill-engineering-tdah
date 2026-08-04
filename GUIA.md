@@ -1,5 +1,7 @@
 # 📘 Guia do skill-engineering-tdah
 
+🌐 🇬🇧 [English](GUIDE.md) · 🇧🇷 **Português**
+
 Como usar as 30 skills. Feito pra ser **escaneável** — pula direto pra seção que precisa.
 
 > **Esqueceu qual usar?** Roda `/qualskill <situação>` e ela te aponta a certa.

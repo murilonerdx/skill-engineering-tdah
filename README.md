@@ -1,157 +1,161 @@
 # skill-engineering-tdah
 
+🌐 🇬🇧 **English** · 🇧🇷 [Português](README.pt-BR.md)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-skills-8A63D2)
 ![Skills](https://img.shields.io/badge/skills-30-blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Neurodivergent friendly](https://img.shields.io/badge/neurodivergent-friendly-ff69b4)
 
-**Kit de skills do [Claude Code](https://docs.anthropic.com/claude-code) para engenheiros de software neurodivergentes.**
+**[Claude Code](https://docs.anthropic.com/claude-code) skills for neurodivergent software engineers.**
 
-Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenharia de software — especialmente backend/Java/Spring e fintech, mas útil pra qualquer stack. Todas as skills entregam saída **estruturada, visual, escaneável e direta**: listas e títulos, nada de parágrafo longo.
+Built for people with **ADHD, autism (ASD) or dyslexia** who work in software engineering — especially backend/Java/Spring and fintech, but useful for any stack. Every skill produces **structured, scannable, direct** output: lists and headings, never walls of text.
 
-> 30 skills que atacam os pontos onde a neurodivergência mais atrapalha o dia técnico: **iniciar tarefa, manter foco, organizar a cabeça, comunicar, decidir e lembrar.**
+> 30 skills that target where neurodivergence hits the technical day hardest: **starting a task, holding focus, organizing your head, communicating, deciding and remembering.**
 
----
-
-## Pra quem é
-
-- Dev/engenheiro com **TDAH** que trava pra começar, se perde em lista longa, ou subestima prazo.
-- Com **TEA** que acha ambíguo o tom/subtexto de mensagens.
-- Com **dislexia** que cansa em parede de texto.
-- Sênior/pleno rumo a **arquitetura/staff** que quer apoio de rotina + ferramentas técnicas no mesmo lugar.
+> **Language note:** the skill content is currently written in **Portuguese (PT-BR)** — that's the persona/instructions Claude follows. The commands and the ideas work in any language, and English translations are very welcome (see [Contributing](CONTRIBUTING.md)).
 
 ---
 
-## As 30 skills
+## Who it's for
 
-### 🧭 Rotina & foco
+- A dev/engineer with **ADHD** who freezes before starting, drowns in long lists, or underestimates time.
+- Someone with **autism** who finds the tone/subtext of messages ambiguous.
+- Someone with **dyslexia** who gets worn down by walls of text.
+- A mid/senior engineer heading toward **architect/staff** who wants routine support and technical tools in one place.
 
-| Comando | O que faz |
+---
+
+## The 30 skills
+
+### 🧭 Routine & focus
+
+| Command | What it does |
 |---|---|
-| `/planodia` | Dia em 3 blocos por energia |
-| `/foco` | De lista caótica a uma única ação |
-| `/quebra` | Tarefa grande em micro-passos |
-| `/retomar` | "Onde eu parei" após interrupção |
-| `/descarrega` | Brain-dump organizado |
-| `/notas` | Memória externa datada |
-| `/resumo` | TL;DR de texto longo |
+| `/planodia` | Your day in 3 blocks by energy level |
+| `/foco` | From a chaotic list to a single next action |
+| `/quebra` | A big task into tiny steps |
+| `/retomar` | "Where was I" after an interruption |
+| `/descarrega` | Organized brain-dump |
+| `/notas` | Dated external memory |
+| `/resumo` | TL;DR of long text |
 
-### 🗣️ Comunicação
+### 🗣️ Communication
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/traduz` | Deixa meu texto claro |
-| `/decodifica` | Decodifica mensagem recebida (tom/intenção) |
-| `/standup` | Update de daily |
-| `/explica-pra` | Adapta ao público |
-| `/1on1` | Prepara o 1:1 |
+| `/traduz` | Makes my text clear |
+| `/decodifica` | Decodes a received message (tone/intent) |
+| `/standup` | Daily standup update |
+| `/explica-pra` | Adapts a topic to the audience |
+| `/1on1` | Prepares the 1:1 |
 
-### 💡 Pensamento & decisão
+### 💡 Thinking & decisions
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/brainstorm` | Pensa junto por perguntas |
-| `/rubberduck` | Pato de borracha socrático |
-| `/decisao` | Tabela de opções + recomendação |
-| `/estimativa` | Estimativa realista (anti-cegueira temporal) |
+| `/brainstorm` | Thinks with you through questions |
+| `/rubberduck` | Socratic rubber duck |
+| `/decisao` | Options table + recommendation |
+| `/estimativa` | Realistic estimate (fights time blindness) |
 
-### 🏛️ Engenharia & arquitetura
+### 🏛️ Engineering & architecture
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/analisa` | Disseca doc técnica |
-| `/revisa` | Revisão crítica do que escrevi |
-| `/pr` | Review de PR (checklist fintech) |
+| `/analisa` | Dissects a technical doc |
+| `/revisa` | Critical review of what I wrote |
+| `/pr` | PR review (fintech checklist) |
 | `/adr` | Architecture Decision Record |
-| `/case` | Guia de take-home de LLM |
-| `/estudo` | Aula guiada + quiz |
+| `/case` | LLM take-home guide |
+| `/estudo` | Guided lesson + quiz |
 
-### 📡 Atualização
+### 📡 Staying current
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/engenheiro` | Radar de tecnologia (tema livre) |
-| `/brief` | Briefing semanal |
-| `/ia` | Ferramentas de IA em alta |
-| `/radar` | Disciplina de fontes |
+| `/engenheiro` | Tech radar (free-form topic) |
+| `/brief` | Weekly briefing |
+| `/ia` | Trending AI tools |
+| `/radar` | Source discipline |
 
-### 🏆 Carreira & ritmo
+### 🏆 Career & rhythm
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/conquistas` | Brag doc pra promoção |
-| `/semana` | Revisão semanal (zoom-out) |
+| `/conquistas` | Brag doc for promotion |
+| `/semana` | Weekly review (zoom-out) |
 
 ### 🧭 Meta
 
-| Comando | O que faz |
+| Command | What it does |
 |---|---|
-| `/qualskill` | Roteador — recomenda a skill certa pra sua situação |
-| `/comecar` | Onboarding — por onde começar |
+| `/qualskill` | Router — recommends the right skill for your situation |
+| `/comecar` | Onboarding — where to start |
 
-📖 Guia de uso completo com exemplos: **[GUIA.md](GUIA.md)**.
+📖 Full usage guide with examples: **[GUIDE.md](GUIDE.md)** (EN) · **[GUIA.md](GUIA.md)** (PT-BR).
 
 ---
 
-## Instalação
+## Installation
 
-### Via marketplace (recomendado)
-Numa sessão interativa do Claude Code, **no chat** (não no terminal):
+### Via marketplace (recommended)
+In an interactive Claude Code session, **in the chat** (not the terminal):
 ```
 /plugin marketplace add murilonerdx/skill-engineering-tdah
 /plugin install skill-engineering-tdah@skill-engineering-tdah
 ```
-Reinicie o Claude Code.
+Restart Claude Code.
 
-### Local (clonando)
+### Local (clone)
 ```bash
 git clone https://github.com/murilonerdx/skill-engineering-tdah.git
 ```
-No chat do Claude Code:
+In the Claude Code chat:
 ```
-/plugin marketplace add /caminho/para/skill-engineering-tdah
+/plugin marketplace add /path/to/skill-engineering-tdah
 /plugin install skill-engineering-tdah@skill-engineering-tdah
 ```
 
-### Alternativa: skills pessoais (sem plugin)
-Copie a pasta `skills/` para `~/.claude/skills/` e reinicie:
+### Alternative: personal skills (no plugin)
+Copy the `skills/` folder into `~/.claude/skills/` and restart:
 ```bash
 cp -r skill-engineering-tdah/skills/* ~/.claude/skills/
 ```
 
-> Slash commands (`/plugin`, `/foco`, ...) rodam **no chat do Claude Code**, nunca no terminal/PowerShell.
+> Slash commands (`/plugin`, `/foco`, ...) run **in the Claude Code chat**, never in the terminal/PowerShell.
 
 ---
 
-## Personalizar
+## Customize
 
-As skills têm uma persona padrão (engenheiro backend Java/Spring, fintech, rumo a staff). Adapte pro seu contexto:
+The skills ship with a default persona (backend Java/Spring engineer, fintech, heading to staff). Adapt it to your context:
 
-1. Edite a seção **"Quem sou eu"** no `SKILL.md` de cada skill (stack, domínio, objetivo).
-2. Ajuste o checklist do `/pr` pro seu domínio (se não for fintech).
-3. Reinstale/re-sincronize e reinicie.
+1. Edit the **"Quem sou eu"** (About me) section in each skill's `SKILL.md` (stack, domain, goal).
+2. Adjust the `/pr` checklist for your domain (if not fintech).
+3. Reinstall/re-sync and restart.
 
-O estilo (estruturado, visual, direto) e a lógica das skills valem pra qualquer stack.
-
----
-
-## Manutenção
-
-- **Faxina:** skill custa contexto (tokens) mesmo sem disparar. Remova as que não usar em 30 dias.
-- **Editou uma skill instalada como pessoal?** Re-sincronize: `cp -r skills/* ~/.claude/skills/` e reinicie.
+The style (structured, visual, direct) and the skill logic work for any stack.
 
 ---
 
-## Contribuir
+## Maintenance
 
-PRs bem-vindos — novas skills, melhorias de estrutura, traduções (EN), correções.
-Diretriz: toda skill deve ser **estruturada, escaneável e direta** (o oposto de parede de texto) e explicar o "por que importa".
-
-Veja o [guia de contribuição](CONTRIBUTING.md) pra como adicionar uma skill e os padrões do projeto.
+- **Cleanup:** a skill costs context (tokens) even when it doesn't fire. Remove the ones you haven't used in 30 days.
+- **Edited a skill installed as personal?** Re-sync: `cp -r skills/* ~/.claude/skills/` and restart.
 
 ---
 
-## Licença
+## Contributing
+
+PRs welcome — new skills, structure improvements, translations (EN), fixes.
+Guideline: every skill must be **structured, scannable and direct** (the opposite of a wall of text) and explain the "why it matters".
+
+See the [contributing guide](CONTRIBUTING.md) for how to add a skill and the project standards.
+
+---
+
+## License
 
 [MIT](LICENSE).
