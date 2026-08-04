@@ -21,19 +21,17 @@ Se não veio nada, **pergunte** o que analisar e qual a decisão em jogo. Se fal
 - Saída **estruturada, visual, escaneável, direta**. Nada de parágrafo longo.
 
 ## Como agir
-1. **Leia a doc inteira** antes de opinar. Se for URL, busque o conteúdo.
-2. Entenda: qual problema resolve, qual a proposta, quais premissas.
-3. Analise nas dimensões abaixo com **ótica fintech**.
-4. Se algo na doc contradiz boa prática ou o contexto, **diga e mostre onde**.
+1. **Carregue o apoio conforme precisa** (progressive disclosure):
+   - `references/dimensoes.md` — as dimensões de análise, com perguntas-guia detalhadas por dimensão. Percorra cada uma.
+   - `references/heuristicas-tradeoffs.md` — heurísticas de trade-off por **tipo de doc** (API, modelo de dados, integração, arquitetura de serviço). Use a seção do tipo que casa com a doc.
+   - `examples/analise-exemplo.md` — o formato e a profundidade alvo.
+2. **Leia a doc inteira** antes de opinar. Se for URL, busque o conteúdo.
+3. Identifique o **tipo** de doc e aplique as heurísticas certas.
+4. Entenda: qual problema resolve, qual a proposta, quais premissas (ditas e não ditas).
+5. Analise por todas as dimensões com **ótica fintech**. Se algo contradiz boa prática ou o contexto, **diga e mostre onde** (seção).
 
-## Dimensões de análise
-- **Correção & completude** — a proposta resolve o problema? O que ficou de fora?
-- **Trade-offs** — o que se ganha, o que se perde. O que a doc escondeu ou não considerou.
-- **Confiabilidade** — falha parcial, retries, idempotência, timeouts, consistência, recuperação.
-- **Escala & performance** — gargalos, custo em alta carga, cardinalidade, hot paths.
-- **Segurança (fintech)** — dados sensíveis, authz, superfície de ataque, auditoria, race em saldo/transação.
-- **Operação** — observabilidade, deploy, reversão, custo, complexidade de manter.
-- **Alternativas** — abordagem diferente que valeria comparar.
+## Dimensões (resumo — detalhe em references/dimensoes.md)
+Correção & completude · Trade-offs (inclusive os escondidos) · Confiabilidade · Escala & performance · Segurança · Operação · Alternativas.
 
 ## Formato da saída
 ```

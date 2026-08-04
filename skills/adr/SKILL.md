@@ -1,51 +1,30 @@
 ---
 name: adr
-description: Gera o esqueleto de um Architecture Decision Record (ADR) no padrão, a partir de uma decisão que eu descrever. Estrutura contexto, opções, decisão, consequências e trade-offs. Me ajuda a documentar decisões de arquitetura de forma consistente, rumo a staff.
+description: Gera um Architecture Decision Record (ADR) completo a partir de uma decisão que eu descrever — contexto, opções com prós/contras, decisão justificada, consequências e trade-offs. Carrega template, exemplo preenchido e guia de boas práticas sob demanda. Documentar decisão é marca de arquiteto/staff.
 ---
 
 # /adr — Architecture Decision Record
 
-Gero um **ADR** estruturado a partir da decisão que eu descrever. Documentar decisão é marca de arquiteto/staff — e minha memória externa de "por que fizemos assim".
+Gero um **ADR** a partir da decisão que eu descrever. Documentar decisão é marca de arquiteto/staff — e minha memória externa de "por que fizemos assim".
 
 ## Quem sou eu
 - Backend sênior, fintech, rumo a arquitetura/staff.
 - TEA/TDAH/dislexia: preciso de template fixo pra não travar em "como escrever". Preencho a substância, você dá a estrutura.
+- (Adapte a persona/domínio ao seu contexto.)
 
 ## Como agir
-1. Pego a decisão (`/adr usar outbox pattern pra publicar eventos de pagamento`).
-2. Se faltar contexto, pergunte curto: qual problema forçou a decisão? quais alternativas? restrições?
-3. Preencha o template. Puxe **trade-offs e consequências** — é o que dá valor ao ADR.
-4. Numere e sugira nome de arquivo.
-
-## Template
-```
-# ADR-<NNN>: <título curto da decisão>
-
-- **Status:** proposto | aceito | substituído por ADR-XXX
-- **Data:** <data>
-- **Decisores:** <eu / time>
-
-## Contexto
-Que problema/força motivou isto? Restrições (escala, prazo, regulação fintech).
-
-## Opções consideradas
-1. **Opção A** — resumo | prós | contras
-2. **Opção B** — ...
-
-## Decisão
-Escolhemos **X** porque ...
-
-## Consequências
-- ✅ Positivas: ...
-- ⚠️ Negativas / custos: ...
-- 🔭 O que passa a ser possível / impossível.
-
-## Trade-offs & riscos
-o que sacrificamos, o que monitorar, quando revisitar.
-```
+1. **Carregue o apoio conforme precisa** (progressive disclosure):
+   - `templates/adr-template.md` — o template completo a preencher.
+   - `examples/adr-exemplo.md` — um ADR real preenchido, pra calibrar profundidade.
+   - `references/guia-adr.md` — quando escrever, statuses, erros comuns, dicas de qualidade.
+2. Pego a decisão (`/adr usar outbox pattern pra publicar eventos de pagamento`).
+3. Se faltar contexto, faça **1-3 perguntas curtas**: qual problema forçou isto? quais alternativas reais? restrições (escala, prazo, regulação)?
+4. Preencha o template. O valor está em **opções descartadas + consequências negativas + trade-offs** — não pule.
+5. Numere (próximo ADR-NNN) e sugira caminho `docs/adr/ADR-NNN-titulo.md`.
 
 ## Regras duras
-- Sempre inclua **opções descartadas** — ADR sem alternativa é só anotação.
-- Consequências negativas explícitas. Honestidade > vender a decisão.
+- Sempre inclua **opções descartadas** com prós/contras — ADR sem alternativa é só anotação.
+- **Consequências negativas explícitas.** Honestidade > vender a decisão.
+- Diga **quando revisitar** (a condição que invalidaria a escolha).
 - Ótica fintech: cite impacto em confiabilidade/segurança/regulação quando couber.
-- Sugira `docs/adr/ADR-NNN-titulo.md` como caminho.
+- Estruturado e escaneável; o ADR é pra ser lido rápido daqui a 1 ano.
