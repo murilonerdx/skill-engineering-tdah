@@ -25,28 +25,72 @@ Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenhari
 
 ## As 30 skills
 
-**🧭 Rotina & foco**
-`/planodia` dia em 3 blocos por energia · `/foco` lista caótica → 1 ação · `/quebra` tarefa grande → micro-passos · `/retomar` "onde eu parei" após interrupção · `/descarrega` brain-dump organizado · `/notas` memória externa datada · `/resumo` TL;DR de texto longo
+### 🧭 Rotina & foco
 
-**🗣️ Comunicação**
-`/traduz` meu texto claro · `/decodifica` decodifica msg recebida (tom/intenção) · `/standup` update de daily · `/explica-pra` adapta ao público · `/1on1` prepara o 1:1
+| Comando | O que faz |
+|---|---|
+| `/planodia` | Dia em 3 blocos por energia |
+| `/foco` | De lista caótica a uma única ação |
+| `/quebra` | Tarefa grande em micro-passos |
+| `/retomar` | "Onde eu parei" após interrupção |
+| `/descarrega` | Brain-dump organizado |
+| `/notas` | Memória externa datada |
+| `/resumo` | TL;DR de texto longo |
 
-**💡 Pensamento & decisão**
-`/brainstorm` pensa junto por perguntas · `/rubberduck` pato socrático · `/decisao` tabela + recomendação · `/estimativa` estimativa realista (anti-cegueira temporal)
+### 🗣️ Comunicação
 
-**🏛️ Engenharia & arquitetura**
-`/analisa` disseca doc técnica · `/revisa` revisão crítica · `/pr` review de PR (checklist fintech) · `/adr` Architecture Decision Record · `/case` guia de take-home de LLM · `/estudo` aula guiada + quiz
+| Comando | O que faz |
+|---|---|
+| `/traduz` | Deixa meu texto claro |
+| `/decodifica` | Decodifica mensagem recebida (tom/intenção) |
+| `/standup` | Update de daily |
+| `/explica-pra` | Adapta ao público |
+| `/1on1` | Prepara o 1:1 |
 
-**📡 Atualização**
-`/engenheiro` radar de tecnologia (tema livre) · `/brief` briefing semanal · `/ia` ferramentas de IA em alta · `/radar` disciplina de fontes
+### 💡 Pensamento & decisão
 
-**🏆 Carreira & ritmo**
-`/conquistas` brag doc pra promoção · `/semana` revisão semanal (zoom-out)
+| Comando | O que faz |
+|---|---|
+| `/brainstorm` | Pensa junto por perguntas |
+| `/rubberduck` | Pato de borracha socrático |
+| `/decisao` | Tabela de opções + recomendação |
+| `/estimativa` | Estimativa realista (anti-cegueira temporal) |
 
-**🧭 Meta**
-`/qualskill` roteador — descreve a situação e ele recomenda a skill certa (inclusive de outros plugins instalados) · `/comecar` onboarding (por onde começar)
+### 🏛️ Engenharia & arquitetura
 
-Guia de uso completo com exemplos: [GUIA.md](GUIA.md).
+| Comando | O que faz |
+|---|---|
+| `/analisa` | Disseca doc técnica |
+| `/revisa` | Revisão crítica do que escrevi |
+| `/pr` | Review de PR (checklist fintech) |
+| `/adr` | Architecture Decision Record |
+| `/case` | Guia de take-home de LLM |
+| `/estudo` | Aula guiada + quiz |
+
+### 📡 Atualização
+
+| Comando | O que faz |
+|---|---|
+| `/engenheiro` | Radar de tecnologia (tema livre) |
+| `/brief` | Briefing semanal |
+| `/ia` | Ferramentas de IA em alta |
+| `/radar` | Disciplina de fontes |
+
+### 🏆 Carreira & ritmo
+
+| Comando | O que faz |
+|---|---|
+| `/conquistas` | Brag doc pra promoção |
+| `/semana` | Revisão semanal (zoom-out) |
+
+### 🧭 Meta
+
+| Comando | O que faz |
+|---|---|
+| `/qualskill` | Roteador — recomenda a skill certa pra sua situação |
+| `/comecar` | Onboarding — por onde começar |
+
+📖 Guia de uso completo com exemplos: **[GUIA.md](GUIA.md)**.
 
 ---
 
