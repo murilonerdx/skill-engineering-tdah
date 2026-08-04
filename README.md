@@ -4,7 +4,7 @@
 
 Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenharia de software — especialmente backend/Java/Spring e fintech, mas útil pra qualquer stack. Todas as skills entregam saída **estruturada, visual, escaneável e direta**: listas e títulos, nada de parágrafo longo.
 
-> 26 skills que atacam os pontos onde a neurodivergência mais atrapalha o dia técnico: **iniciar tarefa, manter foco, organizar a cabeça, comunicar, decidir e lembrar.**
+> 30 skills que atacam os pontos onde a neurodivergência mais atrapalha o dia técnico: **iniciar tarefa, manter foco, organizar a cabeça, comunicar, decidir e lembrar.**
 
 ---
 
@@ -17,10 +17,10 @@ Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenhari
 
 ---
 
-## As 26 skills
+## As 30 skills
 
 **🧭 Rotina & foco**
-`/planodia` dia em 3 blocos por energia · `/foco` lista caótica → 1 ação · `/descarrega` brain-dump organizado · `/notas` memória externa datada · `/resumo` TL;DR de texto longo
+`/planodia` dia em 3 blocos por energia · `/foco` lista caótica → 1 ação · `/quebra` tarefa grande → micro-passos · `/retomar` "onde eu parei" após interrupção · `/descarrega` brain-dump organizado · `/notas` memória externa datada · `/resumo` TL;DR de texto longo
 
 **🗣️ Comunicação**
 `/traduz` meu texto claro · `/decodifica` decodifica msg recebida (tom/intenção) · `/standup` update de daily · `/explica-pra` adapta ao público · `/1on1` prepara o 1:1
@@ -34,11 +34,11 @@ Feito para quem tem **TDAH, TEA (autismo) ou dislexia** e trabalha com engenhari
 **📡 Atualização**
 `/engenheiro` radar de tecnologia (tema livre) · `/brief` briefing semanal · `/ia` ferramentas de IA em alta · `/radar` disciplina de fontes
 
-**🏆 Carreira**
-`/conquistas` brag doc pra promoção
+**🏆 Carreira & ritmo**
+`/conquistas` brag doc pra promoção · `/semana` revisão semanal (zoom-out)
 
 **🧭 Meta**
-`/qualskill` roteador — descreve a situação e ele recomenda a skill certa (inclusive de outros plugins instalados)
+`/qualskill` roteador — descreve a situação e ele recomenda a skill certa (inclusive de outros plugins instalados) · `/comecar` onboarding (por onde começar)
 
 Guia de uso completo com exemplos: [GUIA.md](GUIA.md).
 
